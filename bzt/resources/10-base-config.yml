@@ -76,6 +76,8 @@ modules:
     class: bzt.modules.services.VirtualDisplay
   external-results-loader:
     class: bzt.modules.external.ExternalResultsLoader
+  burdened-reporter:
+    class: burdened_reporter.main.BurdenedReporter
 
   # online services integrations
   blazemeter:
